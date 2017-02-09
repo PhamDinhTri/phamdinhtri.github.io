@@ -1,0 +1,1 @@
+_CCSettings={"platform":"web-desktop","groupList":["default"],"collisionMatrix":[[true]],"rawAssets":{"assets":{}},"assetTypes":[],"jsList":["assets/script/SFS2X_API_JS.js"],"launchScene":"db://assets/main.fire","scenes":[{"url":"db://assets/main.fire","uuid":"5e5e3880-194b-477f-9c0a-84ae58d6961d"}],"packedAssets":{},"orientation":"landscape"};
