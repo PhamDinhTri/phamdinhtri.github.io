@@ -22,6 +22,22 @@ url: "https://phamdinhtri.github.io/" # the base hostname & protocol for your si
 twitter_username: dinhtri91
 github_username:  PhamDinhTri
 
+defaults:
+  -
+    scope:
+      path: "_docs"
+      type: "docs"
+    values:
+      layout: "docs"
+
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /news/:year/:month/:day/:title/
+    output: true
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
