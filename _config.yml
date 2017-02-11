@@ -1,3 +1,6 @@
+<<<<<<< ae17e6e4f7d763a0ac78a7beef01aec2de0a43c8
+theme: jekyll-theme-hacker
+=======
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -13,14 +16,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Phạm Đình Trí
-email: dinhtri91@gmail.com
+title: Your awesome title
+email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  My blog
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://phamdinhtri.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dinhtri91
-github_username:  PhamDinhTri
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
@@ -30,3 +35,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+>>>>>>> no message
