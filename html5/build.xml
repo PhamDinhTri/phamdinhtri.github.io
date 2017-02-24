@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="Javascript compress project" basedir="/Volumes/Data/WhiteNight/tetris" default="compile">
+<project name="Javascript compress project" basedir="/Volumes/Data/WhiteNight/TetrisJs" default="compile">
 
     <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask"
              classpath="/Volumes/Data/cocos2d-x-3.14/tools/cocos2d-console/plugins/plugin_compile/build_web/bin/compiler-1.7.jar"/>
@@ -8,11 +8,11 @@
         <jscomp compilationLevel="simple" 
                 warning="quiet"
                 debug="false" 
-                output="/Volumes/Data/WhiteNight/tetris/publish/html5/game.min.js"
+                output="/Volumes/Data/WhiteNight/TetrisJs/publish/html5/game.min.js"
                 languagein="ECMASCRIPT5"
-                sourceMapOutputFile="/Volumes/Data/WhiteNight/tetris/publish/html5/sourcemap" sourceMapFormat="V3"
+                sourceMapOutputFile="/Volumes/Data/WhiteNight/TetrisJs/publish/html5/sourcemap" sourceMapFormat="V3"
                 >
-            <sources dir="/Volumes/Data/WhiteNight/tetris/frameworks/cocos2d-html5">
+            <sources dir="/Volumes/Data/WhiteNight/TetrisJs/frameworks/cocos2d-html5">
                 <file name="CCBoot.js"/>
                 <file name="cocos2d/core/event-manager/CCEventHelper.js"/>
                 <file name="CCDebugger.js"/>
@@ -166,6 +166,35 @@
                 <file name="cocos2d/parallax/CCParallaxNode.js"/>
                 <file name="cocos2d/parallax/CCParallaxNodeRenderCmd.js"/>
                 <file name="cocos2d/audio/CCAudio.js"/>
+                <file name="extensions/gui/control-extension/CCControl.js"/>
+                <file name="extensions/gui/control-extension/CCControlButton.js"/>
+                <file name="extensions/gui/control-extension/CCControlUtils.js"/>
+                <file name="extensions/gui/control-extension/CCInvocation.js"/>
+                <file name="extensions/gui/control-extension/CCMenuPassive.js"/>
+                <file name="extensions/gui/control-extension/CCControlSaturationBrightnessPicker.js"/>
+                <file name="extensions/gui/control-extension/CCControlHuePicker.js"/>
+                <file name="extensions/gui/control-extension/CCControlColourPicker.js"/>
+                <file name="extensions/gui/control-extension/CCControlSlider.js"/>
+                <file name="extensions/gui/control-extension/CCControlSwitch.js"/>
+                <file name="extensions/gui/control-extension/CCControlStepper.js"/>
+                <file name="extensions/gui/control-extension/CCControlPotentiometer.js"/>
+                <file name="extensions/gui/scrollview/CCScrollView.js"/>
+                <file name="extensions/gui/scrollview/CCScrollViewCanvasRenderCmd.js"/>
+                <file name="extensions/gui/scrollview/CCScrollViewWebGLRenderCmd.js"/>
+                <file name="extensions/gui/scrollview/CCSorting.js"/>
+                <file name="extensions/gui/scrollview/CCTableView.js"/>
+                <file name="extensions/ccb-reader/CCNodeLoader.js"/>
+                <file name="extensions/ccb-reader/CCBReaderUtil.js"/>
+                <file name="extensions/ccb-reader/CCControlLoader.js"/>
+                <file name="extensions/ccb-reader/CCSpriteLoader.js"/>
+                <file name="extensions/ccb-reader/CCNodeLoaderLibrary.js"/>
+                <file name="extensions/ccb-reader/CCBReader.js"/>
+                <file name="extensions/ccb-reader/CCBValue.js"/>
+                <file name="extensions/ccb-reader/CCBKeyframe.js"/>
+                <file name="extensions/ccb-reader/CCBSequence.js"/>
+                <file name="extensions/ccb-reader/CCBRelativePositioning.js"/>
+                <file name="extensions/ccb-reader/CCBAnimationManager.js"/>
+                <file name="extensions/editbox/CCEditBox.js"/>
                 <file name="extensions/ccui/base-classes/CCProtectedNode.js"/>
                 <file name="extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js"/>
                 <file name="extensions/ccui/base-classes/CCProtectedNodeWebGLRenderCmd.js"/>
@@ -254,11 +283,19 @@
                 <file name="extensions/cocostudio/loader/parsers/timelineParser-1.x.js"/>
                 <file name="extensions/cocostudio/loader/parsers/timelineParser-2.x.js"/>
                 <file name="extensions/cocostudio/loader/parsers/compatible.js"/>
+                <file name="extensions/spine/Spine.js"/>
+                <file name="extensions/spine/CCSkeleton.js"/>
+                <file name="extensions/spine/CCSkeletonAnimation.js"/>
+                <file name="extensions/spine/CCSkeletonCanvasRenderCmd.js"/>
+                <file name="extensions/spine/CCSkeletonWebGLRenderCmd.js"/>
+                <file name="extensions/ccpool/CCPool.js"/>
 
             </sources>
             <sources dir="${basedir}">
                 <file name="src/resource.js"/>
-                <file name="src/app.js"/>
+                <file name="src/SplashScene.js"/>
+                <file name="src/config.js"/>
+                <file name="src/MainMenuScene.js"/>
                 <file name="main.js"/>
 
             </sources>
