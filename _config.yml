@@ -39,6 +39,7 @@ collections:
     permalink: /news/:year/:month/:day/:title/
     output: true
 # Build settings
+paginate: 1
 markdown: kramdown
 theme: jekyll-theme-cayman
 gems:

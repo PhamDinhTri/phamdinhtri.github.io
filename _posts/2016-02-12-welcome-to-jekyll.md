@@ -1,4 +1,5 @@
 ---
+layout:
 title:  "Welcome to Jekyll!"
 date:   2017-02-12 00:29:27 +0700
 categories: jekyll update
