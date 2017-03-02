@@ -292,6 +292,20 @@
 
             </sources>
             <sources dir="${basedir}">
+                <file name="src/WhiteNight.js"/>
+                <file name="src/WNBaseScene.js"/>
+                <file name="src/GameOverLayer.js"/>
+                <file name="src/GamePauseLayer.js"/>
+                <file name="src/GameWinLayer.js"/>
+                <file name="src/MainMenuScene.js"/>
+                <file name="src/resource.js"/>
+                <file name="src/SelectMapLayer.js"/>
+                <file name="src/SelectModeScene.js"/>
+                <file name="src/SimpleRecognizer.js"/>
+                <file name="src/SplashScene.js"/>
+                <file name="src/TetrisBrick.js"/>
+                <file name="src/TetrisGameLogic.js"/>
+                <file name="src/TetrisGameScene.js"/>
                 <file name="main.js"/>
 
             </sources>
