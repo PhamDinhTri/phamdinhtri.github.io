@@ -85,4 +85,4 @@ CatActor* cat = catActorPool.getObject();
 ```
 ## Tham khảo
 
-[](http://gameprogrammingpatterns.com/object-pool.html)
+<http://gameprogrammingpatterns.com/object-pool.html>
