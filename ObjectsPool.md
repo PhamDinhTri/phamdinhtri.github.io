@@ -8,11 +8,11 @@ Việc khởi tạo và hủy đối tượng trong game là một việc gây t
 
 Trong quá trình phát triển game tôi có sử dụng hiệu ứng sét đánh của bài viết  [Tạo Hiệu Ứng Sét Đánh](https://www.stdio.vn/articles/read/85/tao-hieu-ung-set-danh-cocos2d-x-2xx) thuộc [STDIO](https://www.stdio.vn). Trong game tôi sử dụng nhiều lần và liên tục nên game đã bị crash. Trong quá trình giải quyết thì tôi đã đọc được kĩ thuật objects pool này.
 
-# Đối tượng hướng đến
+## Đối tượng hướng đến
 
 Bài viết hướng đến những bạn đã có kiến thức về cocos2d-x và mẫu thiết kế.
 
-# Objects Pool
+## Objects Pool
 
 Objects pool là một lớp dùng để lưu trữ lại các đối tượng. Bạn sẽ khởi tạo tối đa số lượng đối tượng có thể được sử dụng và đưa vào pool. Khi đối tượng được sử dụng xong bạn sẽ không hủy nó mà sẽ đưa nó ra khỏi màn hình hiển thị hoặc ẩn đi. Objects pool được sử dụng khi:
 
