@@ -28,7 +28,7 @@ Objects pool trong cocos2d-x v3 kế thừa từ Vector
 #pragma once
 #include "cocos2d.h"
 USING_NS_CC;
- 
+
 template <class T>
 class ObjectPool:public Vector<T>
 {
@@ -38,7 +38,7 @@ public:
 	ObjectPool<T>() : m_index(0)
 	{		
 	}
- 
+
 	T getObject()
 	{
 		T ObjIndex;
@@ -52,10 +52,10 @@ public:
 			ObjIndex = this->at(0);
 			m_index = 1;
 		}
- 
+
 		return ObjIndex;
 	}
- 
+
 	void addObject(T obj)
 	{
 		this->pushBack(obj);
@@ -86,4 +86,3 @@ CatActor* cat = catActorPool.getObject();
 ## Tham khảo
 
 <http://gameprogrammingpatterns.com/object-pool.html>
-{% include disqus.html %}
