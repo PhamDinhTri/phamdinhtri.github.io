@@ -86,3 +86,4 @@ CatActor* cat = catActorPool.getObject();
 ## Tham khảo
 
 <http://gameprogrammingpatterns.com/object-pool.html>
+{% include disqus.html %}
