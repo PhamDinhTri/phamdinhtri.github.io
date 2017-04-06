@@ -6,7 +6,7 @@ Việc khởi tạo và hủy đối tượng trong game là một việc gây t
 
 ## Tiền đề bài viết
 
-Trong quá trình phát triển game tôi có sử dụng hiệu ứng sét đánh của bài viết  [Tạo Hiệu Ứng Sét Đánh](www.stdio.vn/articles/read/85/tao-hieu-ung-set-danh-cocos2d-x-2xx) thuộc [STDIO]( www.stdio.vn). Trong game tôi sử dụng nhiều lần và liên tục nên game đã bị crash. Trong quá trình giải quyết thì tôi đã đọc được kĩ thuật objects pool này.
+Trong quá trình phát triển game tôi có sử dụng hiệu ứng sét đánh của bài viết  [Tạo Hiệu Ứng Sét Đánh](https://www.stdio.vn/articles/read/85/tao-hieu-ung-set-danh-cocos2d-x-2xx) thuộc [STDIO](https://www.stdio.vn). Trong game tôi sử dụng nhiều lần và liên tục nên game đã bị crash. Trong quá trình giải quyết thì tôi đã đọc được kĩ thuật objects pool này.
 
 # Đối tượng hướng đến
 
@@ -85,4 +85,4 @@ CatActor* cat = catActorPool.getObject();
 ```
 ## Tham khảo
 
-http://gameprogrammingpatterns.com/object-pool.html
+[](http://gameprogrammingpatterns.com/object-pool.html)
