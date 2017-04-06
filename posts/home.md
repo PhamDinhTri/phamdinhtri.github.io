@@ -83,4 +83,4 @@ There are some social icon links in `footer`, put your own one by edit the `inde
 
 ## Want to read more about Markdown?
 
-- [Markdown Test Page](#lorem-ipsum)
+- [Markdown Test Page](./ObjectsPool.md)
