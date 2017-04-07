@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "vi_vn"
+locale                   : "en"
 title                    : "Tri's Blog"
 title_separator          : "-"
 name                     : "Phạm Đình Trí"
@@ -70,26 +70,26 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-73401610-8
 
 
 # Site Author
 author:
   name             : "Phạm Đình Trí"
   avatar           : assets/images/avatar200.png
-  bio              : "I am an amazing person."
-  location         : "VietNam"
+  bio              : "I am a game developer."
+  location         : "Hanoi, VietNam"
   email            : tripd.bk@gmail.com
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : phamdinhtribk
   foursquare       :
-  github           :
+  github           : PhamDinhTri
   google_plus      :
   keybase          :
   instagram        :
