@@ -6,21 +6,21 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
+locale                   : "vi_vn"
+title                    : "Tri's Blog"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Phạm Đình Trí"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://phamdinhtri.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : disqus
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : phamdinhtri
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -57,7 +57,7 @@ yandex_site_verification :
 twitter:
   username               :
 facebook:
-  username               :
+  username               : "phamdinhtribk"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Phạm Đình Trí"
+  avatar           : /assets/images/avatar200.png"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  location         : "VietNam"
+  email            : tripd.bk@gmail.com
   uri              :
   bitbucket        :
   codepen          :
