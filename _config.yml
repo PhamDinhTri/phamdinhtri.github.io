@@ -245,4 +245,4 @@ defaults:
       share: true
       related: true
 
-theme: minima
+theme: jekyll-theme-leap-day
