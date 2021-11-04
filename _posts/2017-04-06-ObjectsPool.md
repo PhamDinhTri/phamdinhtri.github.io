@@ -24,7 +24,7 @@ Hiện thực
 Lớp Objects pool cơ bản gồm 2 phương thức: ``` getObject, addObject.```
 
 Objects pool trong cocos2d-x v3 kế thừa từ Vector
-{% highlight cpp %}
+```cpp
 #pragma once
 #include "cocos2d.h"
 USING_NS_CC;
@@ -61,7 +61,7 @@ public:
 		this->pushBack(obj);
 	}
 };	
-{% endhighlight %}
+```
 Khi bạn khởi tạo số lượng đủ lớn cần sử dụng thì với biến ```m_index``` tăng dần sẽ đảm bảo sẽ giúp bạn lấy ra đối tượng chưa được sử dụng.
 
 Sử dụng objects pool
